@@ -11,7 +11,10 @@
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.gogo.runtime)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.scr)',\
 	osgi.identity;filter:='(osgi.identity=org.apache.felix.log)',\
-	osgi.identity;filter:='(osgi.identity=org.example.impls.provider)'
+	osgi.identity;filter:='(osgi.identity=org.example.impls.provider)',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.configadmin)(version>=1.8.10))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.eventadmin)(version>=1.4.8))',\
+	osgi.identity;filter:='(&(osgi.identity=org.apache.felix.metatype)(version>=1.1.2))'
 -resolve: auto
 -runbundles: \
 	org.apache.felix.gogo.command;version='[0.16.0,0.16.1)',\
@@ -20,4 +23,7 @@
 	org.apache.felix.scr;version='[2.0.6,2.0.7)',\
 	org.example.impls.provider;version=snapshot,\
 	org.apache.felix.log;version='[1.0.1,1.0.2)',\
-	org.example.api;version=snapshot
+	org.example.api;version=snapshot,\
+	org.apache.felix.configadmin;version='[1.8.10,1.8.11)',\
+	org.apache.felix.eventadmin;version='[1.4.8,1.4.9)',\
+	org.apache.felix.metatype;version='[1.1.2,1.1.3)'
