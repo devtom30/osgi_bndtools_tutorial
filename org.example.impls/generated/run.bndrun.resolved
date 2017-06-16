@@ -1,0 +1,7 @@
+org.apache.felix.gogo.runtime;version='[0.16.2,0.16.3)';resolution=file:/home/tlornet/.bnd/shacache/shas/729FA8EACCF8D39AB5C9D0AA72A81A71A51EEC32/org.apache.felix.gogo.runtime-0.16.2.jar
+org.apache.felix.log;version='[1.0.1,1.0.2)';resolution=file:/home/tlornet/.bnd/shacache/shas/AF69A7C5C46BE83A5527D4C146C69CE1C00B9E20/org.apache.felix.log-1.0.1.jar
+org.apache.felix.scr;version='[2.0.6,2.0.7)';resolution=file:/home/tlornet/.bnd/shacache/shas/1F17769B5FDD9E67A0CB8936BD84487849E5C363/org.apache.felix.scr-2.0.6.jar
+org.apache.felix.gogo.command;version='[0.16.0,0.16.1)';resolution=file:/home/tlornet/.bnd/shacache/shas/3E9A0E1A5A31D00D2FEB164A2DE3B10CF8063E68/org.apache.felix.gogo.command-0.16.0.jar
+org.apache.felix.gogo.shell;version='[0.12.0,0.12.1)';resolution=file:/home/tlornet/.bnd/shacache/shas/22C48992149AC6E41D2F8F646C0441E057BB4BCC/org.apache.felix.gogo.shell-0.12.0.jar
+org.example.impls.provider;version=snapshot;resolution=file:/home/tlornet/osgi_bndtools_tutorial/org.example.impls/generated/org.example.impls.provider.jar
+org.example.api;version=snapshot;resolution=file:/home/tlornet/osgi_bndtools_tutorial/org.example.api/generated/org.example.api.jar
